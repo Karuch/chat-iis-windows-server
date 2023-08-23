@@ -1,0 +1,11 @@
+postman:
+
+post
+get
+get
+delete
+
+http://localhost:5000/db_send/?sender=maor&receiver=tal&message=hello_tal
+http://localhost:5000/db_new/tal
+http://localhost:5000/db_msg/tal
+http://localhost:5000/db_delete/1
